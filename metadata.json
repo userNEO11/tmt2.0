@@ -1,0 +1,6 @@
+{
+  "name": "Balwant TMT",
+  "description": "Official digital platform for Balwant TMT - Engineered for strength that builds tomorrow.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

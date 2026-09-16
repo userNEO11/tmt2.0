@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Window fetch setter compatibility shim -->
+    <script>
+      (function() {
+        try {
+          var originalFetch = window.fetch;
+          var fetchRef = originalFetch;
+          try {
+            Object.defineProperty(window, 'fetch', {
+              get: function() { return fetchRef; },
+              set: function(val) { fetchRef = val; },
+              configurable: true,
+              enumerable: true
+            });
+          } catch (e1) {
+            try {
+              if (window.Window && window.Window.prototype) {
+                Object.defineProperty(window.Window.prototype, 'fetch', {
+                  get: function() { return fetchRef; },
+                  set: function(val) { fetchRef = val; },
+                  configurable: true,
+                  enumerable: true
+                });
+              }
+            } catch (e2) {}
+          }
+        } catch (err) {}
+      })();
+    </script>
+    
+    <!-- Primary SEO Metadata -->
+    <title>Balwant TMT | सरिया नहीं, फौलाद है ये - Premium Fe 550D Steel Rebar</title>
+    <meta name="title" content="Balwant TMT | सरिया नहीं, फौलाद है ये - Premium Fe 550D Steel Rebar" />
+    <meta name="description" content="Balwant TMT - India's premier manufacturer of high tensile Fe 550D, Fe 600, and CRS corrosion-resistant steel rebar. German Thermex QST technology, BIS certified IS 1786. An associate of Singh Aluminium Company Limited." />
+    <meta name="keywords" content="Balwant TMT, Fe 550D TMT Bar, Fe 600 steel bar, TMT saria price, best TMT bar in India, earthquake resistant steel, Thermex QST, BIS certified TMT, Singh Aluminium Company Limited, सरिया नहीं फौलाद है ये" />
+    <meta name="author" content="Balwant Steel and Power" />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#FFD700" />
+    <link rel="canonical" href="https://balwanttmt.com/" />
+    
+    <!-- Favicons -->
+    <link rel="icon" type="image/jpeg" href="/balwant-favicon.jpeg" />
+    <link rel="apple-touch-icon" href="/balwant-favicon.jpeg" />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <!-- Google Fonts Preconnect & Stylesheets -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800;900&family=JetBrains+Mono:ital,wght@0,400;0,500;0,600;0,700;0,800;1,700&family=Outfit:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,600;1,700&display=swap" rel="stylesheet">
+  </head>
+  <body class="bg-[#FFFDF0] text-[#18181B] antialiased selection:bg-[#FFD700] selection:text-black min-h-screen">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
