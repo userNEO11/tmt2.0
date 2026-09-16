@@ -1,0 +1,17 @@
+{
+  "name": "Balwant Super TMT",
+  "short_name": "Balwant TMT",
+  "description": "India's High-Tensile Fe 550D & Fe 600 TMT Steel Rebar",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FFCE00",
+  "theme_color": "#FFCE00",
+  "icons": [
+    {
+      "src": "/balwant-favicon.jpeg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    }
+  ]
+}
